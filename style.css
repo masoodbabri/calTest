@@ -1,0 +1,77 @@
+
+.jumbotron {
+    background-color: rgb(219, 226, 204);
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.lead p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+
+h6{
+    margin-bottom:10px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.formula{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.formula p {
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    color: darkolivegreen;
+}
+
+button {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    
+}
+
+#Triangle-Form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+
+ #answer {
+     
+    font-family: 'Josefin Sans', sans-serif;
+     
+    
+ }
+
+
+.AnswerSection {
+    margin-top: 35px;
+    margin-right: 300px;
+    font-weight: bold;
+    color: blue;
+}
+
+ .container {
+     margin-top: 2px;
+     margin-bottom: 2px;
+
+ }
+
+
+ .New_Area .h3 {
+     color:navy;
+ }
+ .container .bg-info {
+   margin-top: 2%;
+   margin-bottom: 2%;
+
+ }

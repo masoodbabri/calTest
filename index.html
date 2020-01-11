@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Area of a Circle!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+  </head>
+  
+   
+
+
+  <body>
+    <div class="jumbotron border border-success">
+      <h1 class="display-4 text-center">Area Calculator</h1>
+      <p class="lead text-center">Calculate the Area of a triangle, Area of a Circle and Area of a pentagon</p>
+    </div>
+           
+
+    
+       
+        <div class="container">
+          <div class="row">
+              
+                 <!-- <p class="border">Area of a Triangle is .... <span id='answer'></span></p> -->
+                 <!--<div id="answer">--> 
+              </div>
+            </div>
+          </div>
+      
+     
+     <div class="container">
+       <div class="New_Area">
+          <h3>Area of a Triangle </h3>      
+            <div id="Triangle-Form">
+                <div class="row justify-content-md-center">
+                    <div class="formula">
+                    <p class="text-center">A=1/2(B*H)</p>
+                   </div>
+                 </div>
+            <div class="row">  
+                <div class="col-sm" >
+                    <h6 class="text-center">Base </h6>
+                    <input type="number" id='base-tri' class="form-control shadow-lg" placholder="base" >
+                 </div>
+                 <div class="col-sm">
+                   <h6 class="text-center">Height </h6>
+                   <input type="number" id='height-tri' class="form-control shadow-lg" placholder="height">
+                  </div>
+                <div class="col-sm">
+                  <div class ="AnswerSection">
+                   <p class="text-center"> <span id='answer'></span> </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="row">
+               <div class="col text-center">
+                <button type="submit" value='submit' id='submit' class="btn btn-primary justify-center">Submit</button>
+               </div>
+              </div>
+            </div>
+          </div>
+      </div>
+          
+      <div class="container">
+          <div class="New_Area">
+             <h3>Area of a Pentagon </h3>      
+               <div id="Pent-Form">
+                 <div class="row justify-content-md-center">
+                   <div class="formula">
+                   <p class="text-center">A=1/4 45(5+25)a2</p>
+                  </div>
+                </div>
+               <div class="row">  
+                   <div class="col-sm" >
+                       <h6 class="text-center">Base </h6>
+                       <input type="number" id='base1' class="form-control shadow-lg" placholder="base" >
+                    </div>
+                    <div class="col-sm">
+                      <h6 class="text-center">Height </h6>
+                      <input type="number" id='height1' class="form-control shadow-lg" placholder="height">
+                     </div>
+                   <div class="col-sm">
+                     <div class ="AnswerSection">
+                      <p class="text-center"> <span id='pentag'></span> </p>
+                     </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                  <div class="col text-center">
+                   <button type="submit" value='submit' id='submit' class="btn btn-primary justify-center">Submit</button>
+                  </div>
+                 </div>
+               </div>
+             </div>
+         </div>
+    
+
+
+      
+
+
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
